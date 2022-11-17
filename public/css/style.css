@@ -1,0 +1,330 @@
+body{
+    background-color: #C14040;
+    font-family: 'Bree Serif', serif;
+}
+
+/* =================================
+
+Style du header
+
+==================================*/
+.en_tete{
+    background-color: #EFE3E3;
+    border-radius: 20px;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #C54A45;
+}
+
+.en_tete h1{
+    padding-left: 1.5rem;
+    font-weight: 200;
+}
+
+.en_tete .navigation{
+    padding-top: 1.8rem;
+    padding-right: 1.5rem;
+    }
+
+.en_tete a{
+    text-decoration: none;
+    color: #C54A45;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* =================================
+
+Style de la page d'accueil
+
+==================================*/
+
+.pokemon{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.pokemon_content{
+    background-color: #982C2C;
+    width :28%;
+    margin: 0.7rem;
+    border-radius:30px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.pokemon_content a{
+    color:#EFE3E3;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.pokemon_content img{
+    width: 80%;
+}
+
+/* =================================
+
+Style du footer
+
+==================================*/
+
+#footer-copyright{
+    background-color: #EFE3E3;
+    border-radius: 20px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #C54A45;
+    text-align: center;
+}
+
+/* =================================
+
+Style de la page détail
+
+==================================*/
+.detail{
+    color:#EFE3E3;
+    text-align: center;
+}
+
+.detail a{
+    text-decoration: none;
+    color:#EFE3E3;
+}
+
+.currentpokemon_content{
+    background-color: #AB3838;
+    margin: 0.7rem;
+    border-radius:30px;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #EFE3E3;
+}
+
+
+@media (min-width: 700px){
+        
+    .pokemon_container{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .currentpokemon_content{
+        background-color: #AB3838;
+        margin: 0.7rem;
+        border-radius:30px;
+        padding: 1rem 1rem 1rem 1rem;
+        color: #EFE3E3;
+        width: 50%;
+    }
+    
+    .currentPokemon_image{
+        width: 50%;
+    }
+    .currentPokemon_image img{
+        width: 80%;
+    }
+}
+
+
+/* =================================
+
+Statistiques
+
+==================================*/
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.stats_name{
+    width: 30%;
+}
+
+.stats_value{
+    width: 10%;
+}
+
+.stats .stat_container {
+    flex:4;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #632b2b;
+}
+
+.stats .bar_value{
+    height: 100%;
+    background: #FFF;
+}
+
+
+
+/* =================================
+
+Couleur selon le type
+
+==================================*/
+
+.Acier{
+    background-color: #aaaabb;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Combat{
+    background-color: #bb5544;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Dragon{
+    background-color: #7766ee;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Eau{
+    background-color: #3399ff;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Électrik{
+    background-color: #ffbb33;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Feu{
+    background-color: #ff4422;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Glace{
+    background-color: #77ddff;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Insecte{
+    background-color: #aabb22;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Normal{
+    background-color: #bbaabb;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Plante{
+    background-color: #77cc55;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Poison{
+    background-color: #aa5599;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Psy{
+    background-color: #ff5599;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Roche{
+    background-color: #bbaa66;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Sol{
+    background-color: #ddbb55;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Spectre{
+    background-color: #6666bb;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Ténèbres{
+    background-color:#665544;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+.Vol{
+    background-color: #6699ff;
+    border-radius: 8px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+
+
+
+/* =================================
+
+Style de la page type
+
+==================================*/
+
+.typeAll{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto 12rem; 
+}
+
+.type_title{
+    color:#EFE3E3;
+    margin: 2rem;
+    font-weight: 300;
+}
+
+.currentType{
+    width:20%;
+    text-align: center;
+    
+}
+
+.currentType a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
